@@ -1,14 +1,40 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode hari"
-  }
+{"sismdata": {
+	"questionDescription":"What is my name?",	"questionID":"",
+	"groupItems":[
+		{
+			"GrpID":"1",
+			"grpDescription":"",
+			"grpExtRef":"",
+			"stepItems":[
+				{
+					"StepID":"1",
+					"elementItems": [
+						{
+							"type":"textArea",
+							"elementDetails" :  {
+								"genDetails" :  {"Name":"1a","containerName":""},
+								"PositionDetails":{ "p1":"-1", "p2":"-1", "p3":"-1", "p4":"-1", "p5":"none", "p6":"1"},
+								"ContentDetails" :     { "labelContent": "a) 1 lakh = _____ ten thousand."},
+								"displayDetails" :     { "styleBold":"0", "styleUnderLine":"0", "styleItalics":"0", "StyleColor":"0x0000FA", "controlWidth":"500", "hilightColor":"0x00EEEE", "rotationAngle":"0"},
+								"heightDetails" : "45"
+							}
+						},
+						{
+							"type":"textArea",
+							"elementDetails" :  {
+								"genDetails" :  {"Name":"2a","containerName":""},
+								"PositionDetails":{ "p1":"-1", "p2":"-1", "p3":"-1", "p4":"-1", "p5":"float", "p6":"1"},
+								"ContentDetails" :     { "labelContent": "100000"},
+								"displayDetails" :     { "styleBold":"0", "styleUnderLine":"0", "styleItalics":"0", "StyleColor":"0xFF0000", "controlWidth":"120", "hilightColor":"0x00EEEE", "rotationAngle":"0"},
+								"heightDetails" : "45"
+							}
+						}
+					]
+
+				}
+			]
+		}
+	]
 }
+}
+
